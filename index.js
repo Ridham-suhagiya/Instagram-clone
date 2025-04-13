@@ -9,7 +9,7 @@ app.use(cors());
 const CLIENT_ID = process.env.INSTAGRAM_CLIENT_ID;
 const CLIENT_SECRET = process.env.INSTAGRAM_CLIENT_SECRET;
 const INSTAGRAM_TOKEN = process.env.INSTAGRAM_TOKEN;
-const REDIRECT_URI = "https://9a74-110-226-178-105.ngrok-free.app/auth/instagram/callback";
+const REDIRECT_URI = "https://instagram-clone-production-2ab5.up.railway.app/auth/instagram/callback";
 const FRONTEND_URL = process.env.FRONTEND_URL; // Update this to your frontend URL
 
 const usersTokenMapper = {
